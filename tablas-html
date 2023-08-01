@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="description" content="Ejemplo de tabla basica de HTML">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Tablas html</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Países de Centroamérica</h1>
+
+    <table>
+        <tr>
+            <th>País</th>
+            <th>Capital</th>
+            <th>Ave Nacional</th>
+            <th>Flor Nacional</th>
+        </tr>
+        <tr>
+            <td>Belice</td>
+            <td>Belmopán</td>
+            <td>Jabirú</td>
+            <td>Mahogany Orchid</td>
+        </tr>
+        <tr>
+            <td>Costa Rica</td>
+            <td>San José</td>
+            <td>Yigüirro</td>
+            <td>Guaria Morada</td>
+        </tr>
+        <tr>
+            <td>El Salvador</td>
+            <td>San Salvador</td>
+            <td>Torogoz</td>
+            <td>Flor de Izote</td>
+        </tr>
+        <tr>
+            <td>Guatemala</td>
+            <td>Ciudad de Guatemala</td>
+            <td>Quetzal</td>
+            <td>Monja Blanca</td>
+        </tr>
+        <tr>
+            <td>Honduras</td>
+            <td>Tegucigalpa</td>
+            <td>Gallito de las Rocas</td>
+            <td>Orquídea Brassavola</td>
+        </tr>
+        <tr>
+            <td>Nicaragua</td>
+            <td>Managua</td>
+            <td>Güis</td>
+            <td>Sacuanjoche</td>
+        </tr>
+        <tr>
+            <td>Panamá</td>
+            <td>Ciudad de Panamá</td>
+            <td>Águila Harpía</td>
+            <td>Flor del Espíritu Santo</td>
+        </tr>
+    </table>
+    <hr>
+    <br>
+    <pre><code>
+
+        En este ejemplo, utilizamos la etiqueta <strong> &lt;table&gt; </strong> para crear la tabla y las etiquetas <strong> &lt;tr&gt;</strong>, <strong> &lt;th&gt;</strong> y <strong> &lt;td&gt;</strong> 
+        para definir las filas, encabezados de columna y celdas respectivamente.
+        También aplicamos estilos básicos utilizando CSS para dar formato a la tabla.
+        
+        Recuerda que puedes agregar más países y sus respectivos datos en la tabla, simplemente añadiendo
+        más filas  con las etiquetas <strong> &lt;tr&gt;</strong>, y completando las celdas con los valores correspondientes.
+        
+        ¡Experimenta con el código y personaliza la tabla según tus necesidades y preferencias! Espero que
+        este ejemplo te sea útil en tu ebook "HTML Exprés: Tu Puerta de Entrada al Mundo de la Programación Web".
+    </code>
+</pre>
+
+
+</body>
+
+</html>
